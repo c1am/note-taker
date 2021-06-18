@@ -1,6 +1,5 @@
 const express = require("express");
 const path = require("path");
-const store = require("./db/STORE");
 const fs = require("fs");
 const { v4: uuidv4 } = require("uuid");
 var noteDB = require("./db/db.json");
