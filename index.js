@@ -6,7 +6,7 @@ const { v4: uuidv4 } = require("uuid");
 var noteDB = require("./db/db.json");
 
 const app = express();
-const PORT = 3088;
+const PORT = process.env.PORT || 3000;
 
 
 // MIDDLEWARE
@@ -49,4 +49,4 @@ app.get("/notes", (req, res) => res.sendFile(path.join(__dirname, "public/notes.
 app.get("*", (req, res) => res.send("404"));
 
 // Start listening
-app.listen(PORT, () => console.log("server running on http://localhost:3088"));
+app.listen(PORT, () => console.log("server running on http://localhost:3000"));
