@@ -4,9 +4,11 @@
 The Note Taker application helps uesr keep track of notes in a list. Users can add or delete notes. Notes are saved in the same browser even after refreshing.
 
 ### User Story
+```
 AS A small business owner
 I WANT to be able to write and save notes
 SO THAT I can organize my thoughts and keep track of tasks I need to complete
+```
 
 
 ### Criteria
@@ -26,8 +28,12 @@ WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 ```
 
-## Live Link
+## Deployed Link
 https://simple-note-taker-3000.herokuapp.com/
+
+
+## Repository Link
+https://github.com/c1am/note-taker
 
 
 ## Preview
