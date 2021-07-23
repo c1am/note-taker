@@ -1,19 +1,15 @@
 # Note Taker
 
-## Assignment
-Create an applicationthat can be used to write and save notes using an Express.js back end and will save and retrieve note data from a JSON file.
+## Description
+The Note Taker application helps uesr keep track of notes in a list. Users can add or delete notes. Notes are saved in the same browser even after refreshing.
 
 ### User Story
-
-```
 AS A small business owner
 I WANT to be able to write and save notes
 SO THAT I can organize my thoughts and keep track of tasks I need to complete
-```
 
-### Acceptance Criteria
 
-```
+### Criteria
 GIVEN a note-taking application
 WHEN I open the Note Taker
 THEN I am presented with a landing page with a link to a notes page
@@ -27,7 +23,24 @@ WHEN I click on an existing note in the list in the left-hand column
 THEN that note appears in the right-hand column
 WHEN I click on the Write icon in the navigation at the top of the page
 THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
-```
+
 
 ## Live Link
 https://simple-note-taker-3000.herokuapp.com/
+
+
+## Preview
+Here is a preview of the simple, yet useful Note Taker application.
+![This picture](note-taker-demo.JPG)
+
+
+## Built With
+- Javascript
+- CSS
+- HTML
+
+
+## Authors
+- Cherry Lam 
+    - [GitHub](https://github.com/c1am)
+    - [Email](mailto:cherrylam.ny@gmail.com)
